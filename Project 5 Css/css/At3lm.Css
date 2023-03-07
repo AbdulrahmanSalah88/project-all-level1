@@ -1,0 +1,102 @@
+* {
+  text-align: center;
+  margin: 0;
+  border-radius: 10px;
+  font-family: "Unbounded", cursive;
+}
+
+/* h1{
+    font-size: 40px;
+    border: blue 3px solid;
+} */
+
+header,
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px red solid; */
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+/* main */
+
+main {
+  background-color: #fff;
+  margin: 20px 0;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.main-title {
+  color: #fff;
+  background-color: royalblue;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+/* card */
+
+.card {
+  border: solid 2px #000000;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 40px 90px;
+
+  /* margin-top: 20px; */
+  display: inline-block;
+}
+
+.Lesson1-title {
+  color: #fff;
+  background-color: #495057;
+  /* padding: 40px 100px; */
+  width: 200px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.note {
+  padding: 20px;
+}
+
+.dateils {
+  padding: 10px;
+  text-decoration: none;
+  background-color: #b80419;
+  color: white;
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 25px;
+}
+
+/* main section */
+
+.mb{
+    width: 90%;
+padding: 10px 10px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+color: #fff;
+background-color: #b80419;
+border: #b80419 2px solid;
+}

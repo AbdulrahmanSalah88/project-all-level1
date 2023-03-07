@@ -1,0 +1,208 @@
+/* ================
+=========Table=====
+
+
+1/========== global Css ==========
+2/========== button ==========
+3/========== background ==========
+4/========== h1 ==========
+5/========== perant ==========
+
+*/
+
+
+
+/* ========== Golbal Css ========== */
+* {
+    margin: 0;
+}
+
+
+/* ========== button ========== */
+
+button {
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    top: 30px;
+    border: 2px #FF4F32 solid;
+    background: transparent;
+    animation: mymove 4s infinite;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.ex {
+    right: 20px;
+}
+
+.si {
+    left: 20px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: #FF4F32;
+}
+
+
+.ex:hover,
+.si:hover {
+    cursor: grab;
+}
+
+@keyframes mymove {
+    0% {
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+
+    50% {
+        border-radius: 20px;
+        padding: 5px 20px;
+    }
+
+    100% {
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+}
+
+
+
+/* ========== background ========== */
+
+.background {
+    width: 100%;
+}
+
+
+
+
+
+/* ========== h1 ========== */
+
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #FF4F32;
+    width: 70%;
+    text-align: center;
+    position: fixed;
+    bottom: 45%;
+    right: 210px;
+    animation: flix 5s infinite;
+}
+
+h1 span {
+    color: #fff;
+}
+
+@keyframes flix {
+    0% {
+        transform: translate(0, 0px);
+
+    }
+
+    50% {
+        transform: translate(0, 50px);
+
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+
+
+/* ========== perant ========== */
+
+
+.perant{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* border: #FF4F32 2px solid; */
+   justify-content: space-around;
+   font-size: 30px;
+   animation: dive 5s infinite;
+   bottom: 30px;
+   font-family: 'Alfa Slab One', cursive;
+color: #FFF;
+}
+
+.perant span {
+    color: #FF4F32;
+}
+
+
+
+.div1{
+animation:dive 5 infinite linear;
+}
+
+.div2{
+    animation:dive 10s infinite linear;
+}
+.div3{
+    animation:dive 15s infinite linear;
+}
+
+.div4{
+    animation:dive 20s infinite linear;
+}
+
+.div5{
+    animation:dive 25s infinite linear;
+}
+
+.div6{
+    animation:dive 30s infinite linear;
+}
+
+.div7{
+    animation:dive 35a infinite linear;
+}
+
+.div8{
+    animation:dive 40s infinite linear;
+}
+
+.div9{
+    animation:dive 50s infinite linear;
+}
+
+
+@keyframes dive {
+    0% {
+        transform: translate(0, 0px);
+
+    }
+
+   
+
+    100% {
+        transform: translate(0, -800px);
+        /* opacity: 0.5; */
+    }
+}
+
+
+
+
+
+
+@media (max-width:581px) and (min-width:150px) {
+    .background {
+        width: 100%;
+        height: 850px;
+    }
+    
+}
+

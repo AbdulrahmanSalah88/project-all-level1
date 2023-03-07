@@ -1,0 +1,51 @@
+* {
+  border-radius: 20px;
+}
+
+body {
+  background-image: linear-gradient(#16384c, rgb(47, 50, 95), #2f495f);
+  min-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  background-color: aliceblue;
+  height: 350px;
+  width: 400px;
+  margin: 200px auto 0 auto;
+  position: relative;
+}
+
+section:hover {
+  height: 400px;
+  transition: all 1s;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  transition: all 0.9s;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: all 1s;
+}
+
+section:hover .container {
+  opacity: 1;
+}
+section:hover  {
+  position: absolute;
+  top: -120px;
+  transform: rotate(720deg);
+  border-radius: 50%;
+}
